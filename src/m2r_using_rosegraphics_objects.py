@@ -28,9 +28,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
 #              Up
 #
 #     b. Write a line of code that constructs a RoseWindow object:
-def __init__(self, width=400, height=300, title='Rose Graphics',
-             color='black', canvas_color=None,
-             make_initial_canvas=True):
+#         window = rg.RoseWindow(500, 300, 'Example 1: An empty window')
 #
 #     c. What is the default height of a RoseWindow?
 #        (Use the HOVER trick to determine the answer to this question.)
