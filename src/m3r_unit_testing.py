@@ -4,7 +4,7 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Mashengjun Li.
 """
 ###############################################################################
 #
@@ -58,7 +58,7 @@ def distance(point):
     """
     # This code has an error, on purpose.  Do NOT fix it.
     x_squared = point.x * point.x
-    y_squared = point.y * point.x
+    y_squared = point.y * point.y
 
     return math.sqrt(x_squared + y_squared)
 
