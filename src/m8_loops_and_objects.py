@@ -17,7 +17,7 @@ def main():
     # Test your functions by putting calls to them here:
     print_sequence1()
     draw_circles1()
-
+    print_sequence2()
 def print_sequence1():
     """
     Prints:
@@ -98,7 +98,8 @@ def print_sequence2():
     print('Running print_sequence2:')
     print('--------------------------------------------------')
 
-
+    for k in range (6,18):
+      print(k*10)
 def draw_circles2():
     """
     -- Constructs an rg.RoseWindow whose width and height are both 400.
