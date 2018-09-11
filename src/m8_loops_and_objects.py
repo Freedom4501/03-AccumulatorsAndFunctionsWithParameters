@@ -53,7 +53,7 @@ def draw_circles1():
     -- Waits for the user to press the mouse, then closes the window.
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement this function, per its doc-string above.
+    # Done: 3. Implement this function, per its doc-string above.
     # Put a statement in  main  to test this function.
     # REQUIREMENT: You must use a   RANGE  statement to solve this problem.
     # HINT: You might find a prior module useful when 'writing' this code.
@@ -63,13 +63,18 @@ def draw_circles1():
     print('Running draw_circles1:  See graphics window')
     print('--------------------------------------------------')
 
-    width = 400
-    height = 400
-    window = rg.RoseWindow(width,height)
-    point = rg.Point(200,200)
-    turtle = rg.Circle(point,)
+    window = rg.RoseWindow(400,400)
+
+    for k in range (21):
+        radius = k*10
+        circle = rg.Circle(rg.Point(200, 200), radius)
+        circle.outline_color = 'cyan'
+        circle.attach_to(window)
+
+    window.render()
 
 
+    window.close_on_mouse_click()
 
 
 def print_sequence2():
